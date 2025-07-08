@@ -1,0 +1,9 @@
+; Engine configuration file.
+; It's best edited using the Godot Editor.
+
+config_version=5
+
+[application]
+config/name="Dual Slide Controller"
+config/version="1.0"
+run/main_scene="res://scenes/Main.tscn"

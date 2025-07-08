@@ -1,0 +1,7 @@
+# Godot-specific
+.import/
+.export/
+mono/
+# OS files
+.DS_Store
+Thumbs.db
