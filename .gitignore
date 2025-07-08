@@ -1,7 +1,10 @@
 # Godot-specific
 .import/
 .export/
+.godot/
 mono/
 # OS files
 .DS_Store
 Thumbs.db
+
+*.cache
