@@ -51,7 +51,7 @@ For academic presentations, you can modify the Godot script to load PDF pages di
 ### Create Main Scene
 1. Create a new scene with a **Node** as root
 2. Name it "Main"
-3. Attach the `DualSlideController.gd` script to the root node
+3. Attach the `scripts/DualSlideController.gd` script to the root node
 4. Add two **TextureRect** nodes as children:
    - Name one "LightDisplay"
    - Name one "DarkDisplay"
@@ -59,7 +59,7 @@ For academic presentations, you can modify the Godot script to load PDF pages di
 ### Configure Display Windows
 1. Create a new scene with **Window** as root
 2. Name it "SlideDisplayWindow"
-3. Attach the `SlideDisplayWindow.gd` script
+3. Attach the `scripts/SlideDisplayWindow.gd` script
 4. Instance this scene twice in your main scene for dual monitors
 
 ## Step 3: Configure the Controller

@@ -16,8 +16,8 @@ Create a Godot-based dual-screen presentation system for CGRA252 Game Engine Pro
 ## Phase 1: Project Setup and Structure
 
 ### Core Project Structure
-- [ ] Create new Godot 4.x project
-- [ ] Set up directory structure:
+- [X] Create new Godot 4.x project
+- [X] Set up directory structure:
   ```
   YourProject/
   ├── scenes/
@@ -30,9 +30,9 @@ Create a Godot-based dual-screen presentation system for CGRA252 Game Engine Pro
       ├── light/
       └── dark/
   ```
-- [ ] Configure .gitignore for Godot project
+- [X] Configure .gitignore for Godot project
 - [ ] Set up Git LFS for slide image assets
-- [ ] Create project.godot configuration file
+- [X] Create project.godot configuration file
 
 ### Asset Preparation
 - [ ] Extract 19 slides from CGRA252 PDF to PNG format
@@ -46,45 +46,45 @@ Create a Godot-based dual-screen presentation system for CGRA252 Game Engine Pro
 ## Phase 2: Core Slide Controller Implementation
 
 ### DualSlideController.gd
-- [ ] Implement base Node class with exported variables
-- [ ] Add slide loading system with error handling
+- [X] Implement base Node class with exported variables
+- [X] Add slide loading system with error handling
 - [ ] Create slide navigation methods:
-  - [ ] `next_slide()`
-  - [ ] `previous_slide()`
-  - [ ] `go_to_slide(index: int)`
-  - [ ] `get_current_slide_index()`
+  - [X] `next_slide()`
+  - [X] `previous_slide()`
+  - [X] `go_to_slide(index: int)`
+  - [X] `get_current_slide_index()`
 - [ ] Implement input handling system:
-  - [ ] Mouse navigation (left click = next, right click = previous)
-  - [ ] Keyboard navigation (arrows, space, home, end)
-  - [ ] Mouse wheel support
+  - [X] Mouse navigation (left click = next, right click = previous)
+  - [X] Keyboard navigation (arrows, space, home, end)
+  - [X] Mouse wheel support
   - [ ] Gamepad/presentation remote support
-- [ ] Add slide counter and progress tracking
-- [ ] Implement slide changed signal system
+- [X] Add slide counter and progress tracking
+- [X] Implement slide changed signal system
 
 ### Display Management
-- [ ] Create TextureRect display nodes setup
-- [ ] Implement texture loading and assignment
+- [X] Create TextureRect display nodes setup
+- [X] Implement texture loading and assignment
 - [ ] Add slide transition effects (fade, slide, etc.)
-- [ ] Handle display scaling and aspect ratio preservation
-- [ ] Add error handling for missing slides
+- [~] Handle display scaling and aspect ratio preservation
+- [~] Add error handling for missing slides
 
 ---
 
 ## Phase 3: Multi-Monitor Window System
 
 ### SlideDisplayWindow.gd
-- [ ] Create Window-based display controller
-- [ ] Implement monitor detection and assignment
-- [ ] Add theme selection (dark/light) per window
+- [X] Create Window-based display controller
+- [X] Implement monitor detection and assignment
+- [X] Add theme selection (dark/light) per window
 - [ ] Create fullscreen and windowed mode support
-- [ ] Implement window positioning and sizing
-- [ ] Add input forwarding to main controller
+- [X] Implement window positioning and sizing
+- [X] Add input forwarding to main controller
 
 ### Multi-Screen Setup
-- [ ] Auto-detect available monitors
+- [~] Auto-detect available monitors
 - [ ] Create window spawning system for dual displays
 - [ ] Implement synchronized display updates
-- [ ] Add configuration for monitor assignment
+- [X] Add configuration for monitor assignment
 - [ ] Handle monitor disconnect/reconnect gracefully
 
 ---
