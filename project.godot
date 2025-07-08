@@ -12,4 +12,5 @@ config_version=5
 
 config/name="Dual Slide Controller"
 config/version="1.0"
+run/main_scene="uid://r5wscaxu2v3j"
 config/features=PackedStringArray("4.4")
